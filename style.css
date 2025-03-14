@@ -1,6 +1,6 @@
 
 
-body {
+  body {
     background-image: url("./images/image3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,47 +68,51 @@ body {
 
 
 
-    @media screen and (max-width: 480px) {
-      body {
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-          font-size: 50%; /* Adjusted for better scaling */
-          height: 130vh;
-          width: 130%;
-      }
+@media screen and (max-width: 480px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 50%; /* Adjusted for better scaling */
+    height: 130vh;
+    width: 130%;
+  }
 
-      h1{
-        font-size: 40px;
+  h1{
+    font-size: 40px;
+    font-family: "Rubik Wet Paint", serif;
     
-      }
+  }
   
-      .calculator {
-        margin: auto;
+  .calculator {
+    margin: auto;
+    width: 80%; 
+    padding: 5%;
+  }
       
-          width: 80%; 
-          padding: 15px;
-      }
   
-      .calculator-screen {
-          width: 86%; 
-          margin-left: 4%;
-          height: 100%; 
-          font-size: 3rem; 
-          padding: 10px;
-      }
-  
-      .calculator-keys {
-          grid-template-columns: repeat(4, 1fr);
-          grid-gap: 10px; /* Adjusted spacing */
-          padding: 10px;
-      }
-  
-      button {
-          height: 50px;
-          font-size: 1.8rem;
-      }
-  };
+  .calculator-screen {
+    width: 86%; 
+    margin-left: 3%;
+    height: 100%; 
+    font-size: 3rem; 
+    padding: 3%;
+    padding-right: 5%;
+            
+  }
+    
+  .calculator-keys {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; /* Adjusted spacing */
+    padding: 10px;
+    margin-top: 2%;
+  }
+    
+  button {
+    height: 50px;
+    font-size: 1.8rem;
+  }
+};
 
 @media screen and (min-width: 481px) and (max-width: 768px){
   body {
@@ -118,37 +122,37 @@ body {
     font-size: 50%; /* Adjusted for better scaling */
     height: 130vh;
     width: 130%;
-}
+ }
 
-h1{
-  font-size: 40px;
+  h1{
+    font-size: 40px;
 
-}
+  }
 
-.calculator {
-  margin: auto;
-
+  .calculator {
+    margin: auto;
     width: 80%; 
     padding: 15px;
-}
 
-.calculator-screen {
-    width: 86%; 
-    margin-left: 4%;
-    height: 100%; 
-    font-size: 3rem; 
-    padding: 10px;
-}
+  }
 
-.calculator-keys {
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px; /* Adjusted spacing */
-    padding: 10px;
-}
+  .calculator-screen {
+      width: 88%; 
+      margin-left: 4%;
+      height: 100%; 
+      font-size: 3rem; 
+      padding: 10px;
+  }
 
-button {
-    height: 50px;
-    font-size: 1.8rem;
-}
+  .calculator-keys {
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px; /* Adjusted spacing */
+      padding: 10px;
+  }
+
+  button {
+      height: 50px;
+      font-size: 1.8rem;
+  }
 };
 
