@@ -1,8 +1,5 @@
 
 
-
-
-
 // Loop through all buttons.
 
 document.querySelectorAll("button").forEach(button => {   
@@ -56,11 +53,11 @@ function calculateResult() {
     
     
     const images = [
-        "url('/images/image3.jpg')",
-        "url('/images/image5.jpg')",
-        "url('/images/image6.jpg')",
-        "url('/images/image8.jpg')",
-        "url('/images/image9.jpg')"
+        "url('./images/image3.jpg')",
+        "url('./images/image5.jpg')",
+        "url('./images/image6.jpg')",
+        "url('./images/image8.jpg')",
+        "url('./images/image9.jpg')"
         ];
             
     let index = 0;                                                              // Initialize index
@@ -83,3 +80,5 @@ function calculateResult() {
 
 
     
+
+
