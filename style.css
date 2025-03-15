@@ -55,7 +55,7 @@
   }
   
   .equal-sign {
-    height: 100%;
+    height: 126%;
     grid-area: 2 / 4 / 6 / 5;
   }
   
@@ -105,12 +105,14 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px; /* Adjusted spacing */
     padding: 10px;
+    padding-bottom: 5%;
     margin-top: 2%;
   }
     
   button {
     height: 50px;
     font-size: 1.8rem;
+    padding: 10%
   }
 };
 
